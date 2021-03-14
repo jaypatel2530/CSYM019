@@ -1,0 +1,69 @@
+.h2-red {
+    color: red;
+  
+  }
+  .p-bac {
+    color:white;
+    background-color: black;
+  }
+  
+  .green {
+color: green;
+ }
+ .green-dark {
+    color: green;
+    background-color: darkgray;
+     }
+     .csym019{
+        background-color:darkcyan;
+        float: right;
+        display: block;
+        width: 50%;
+
+    }
+    .csym015{
+        background-color: yellow;
+
+    }
+    .header{
+        background-color: blue;
+        padding: 1.5%;
+        text-align: center;
+    }
+    .right{
+        background-color:yellow;
+        padding: 1.5%;
+        text-align: center;
+    }
+    .ex3body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    .wrapper {
+        display: block;
+        width: 100%; /* define your max site width here */
+        margin: 0 auto; /* centers the container, keep if not 100% wide */
+        padding: 0;
+        clear: both;
+    }
+    .container {
+        display: inline-block;
+    }
+    .bar-left,
+    .bar-right,
+    .bar-mid {
+        float: left;
+        display: inline-block;
+        height: 100% !important;
+    }
+    .bar-left, .bar-right {
+        width: 20%; /* sidebar width */
+        overflow: hidden; /* hide extra content */
+    }
+    .bar-mid {
+        width: 60%; /* main content width */
+        overflow: scroll; /* add scrollbar for extra content */
+    }

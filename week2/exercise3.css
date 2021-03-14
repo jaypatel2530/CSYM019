@@ -1,0 +1,52 @@
+
+h1, div#footer {
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: 0;
+    padding: 5px;
+    height: 25px;
+    background-color: blue;
+
+}
+div#footer {
+    bottom: 0;
+    font-size: 35px;
+    border: 1px solid red;
+}
+.h1-header {
+    background-color: blue;
+    padding: 1.5%;
+    text-align: center;
+   
+}
+div#left, div#right {
+    position: absolute;
+    top: 80px;
+    bottom: 31px;
+    width: 200px;
+    padding: 5px;
+}
+div#left {
+    left: 0;
+    border-right: 1px solid black;
+    background-color: yellow;
+}
+div#right {
+    right: 0;
+    border-left: 1px solid gold;
+    background-color:darkblue;
+    
+}
+div#container {
+    position: absolute;
+    top: 80px;
+    right: 211px;
+    bottom: 31px;
+    left: 211px;
+    overflow: auto;
+    padding: 0 10px;
+    line-height: 2em;
+    background-color:green;
+
+}
